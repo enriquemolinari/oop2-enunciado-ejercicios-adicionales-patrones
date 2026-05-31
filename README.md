@@ -50,3 +50,20 @@ Se pide:
 - Diagrama de clases de la solución implementada.
 
 Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
+
+## 3. Media Player
+
+Usted ha implementado las clases que se encuentran en el paquete `ejercicio3`, para reproducir archivos de audio y video
+en formatos que usted ha diseñado. Cada `Media` se puede reproducir con el mensaje `play()`. Para continuar con el
+desarrollo, usted desea incorporar la posibilidad de reproducir Video stream. Para ello, dispone de la clase
+`VideoStream` que pertenece a una librería de terceros y usted no puede ni debe modificarla. El desafío que se le
+presenta es hacer que la clase MediaPlayer pueda interactuar con la clase VideoStream.
+
+Se pide:
+
+- Indique qué patrón de diseño sería adecuado para la solución y justifique la respuesta.
+- Implemente la solución.
+- Escriba una Main que muestre cómo se utilizará su implementación.
+- Diagrama de clases de la solución implementada.
+
+Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
