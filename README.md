@@ -48,3 +48,5 @@ Se pide:
 - Implemente la solución.
 - Escriba una Main que muestre cómo se utilizará su implementación.
 - Diagrama de clases de la solución implementada.
+
+Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
