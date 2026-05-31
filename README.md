@@ -39,8 +39,8 @@ Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
 ## 2. Exportador
 
 Refactorice el código que se encuentra en el paquete `ejercicio2` para permitir realizar la exportacion a json además de
-la implementacion actual, con la librería [gson](https://github.com/google/gson). El diseño debe permitir a los clientes
-elegir que implementacion utilizar.
+con la implementación actual, con la librería [gson](https://github.com/google/gson). El diseño debe permitir a los
+clientes elegir que implementacion utilizar.
 
 Se pide:
 
