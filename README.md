@@ -66,4 +66,34 @@ Se pide:
 - Escriba una Main que muestre cómo se utilizará su implementación.
 - Diagrama de clases de la solución implementada.
 
-Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
+- Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
+
+# 4. Calculo de suelos de Empleados
+
+Dada la implementación del cálculo de sueldo que se encuentra en el paquete `ejercicio4`, donde existen tres tipos de
+empleados: Temporarios, Pasantes y Planta y el sueldo se compone de 3 elementos: sueldo básico, adicionales y
+descuentos.
+
+| Concepto  | Temporario                                      | Pasante                                         | Planta                                                                           |
+|-----------|-------------------------------------------------|-------------------------------------------------|----------------------------------------------------------------------------------|
+| Básico    | $20.000 + (horas trabajadas * $300)             | $20.000                                         | $50.000                                                                          |
+| Adicional | $5.000 si está casado + $2.000 por cada hijo    | $2.000 por examen rendido                       | $5.000 si está casado + $2.000 por cada hijo + $2.000 por cada año de antigüedad |
+| Descuento | 13% del sueldo básico + 5% del sueldo adicional | 13% del sueldo básico + 5% del sueldo adicional | 13% del sueldo básico + 5% del sueldo adicional                                  |
+
+Se pide:
+
+- Incoporar al calculo del sueldo la idea de convenio, donde existen dos tipos: regular y jubilacion anticipada. Donde,
+  ahora tenemos los siguientes cambios en el cálculo
+
+| Concepto                        | Temporario                                      | Pasante                                         | Planta                                                                            |
+|---------------------------------|-------------------------------------------------|-------------------------------------------------|-----------------------------------------------------------------------------------|
+| Básico Regular                  | $20.000 + (horas trabajadas * $300)             | $20.000                                         | $50.000                                                                           |
+| Básico Jubilacion Anticipada    | $15.000 + (horas trabajadas * $150)             | $19.000                                         | $45.000                                                                           |
+| Adicional Regular               | $5.000 si está casado + $2.000 por cada hijo    | $2.000 por examen rendido                       | $5.000 si está casado + $20.000 por cada hijo + $2.000 por cada año de antigüedad |
+| Adicional Jubilacion Anticipada | $2.000 por cada hijo                            | $1.000 por examen rendido                       | $2.000 por cada hijo + $15.000 por cada año de antigüedad                         |
+| Descuento Regular               | 13% del sueldo básico + 5% del sueldo adicional | 13% del sueldo básico + 5% del sueldo adicional | 13% del sueldo básico + 5% del sueldo adicional                                   |
+| Descuento Jubilacion Anticipada | 15% del sueldo básico + 5% del sueldo adicional | 15% del sueldo básico + 5% del sueldo adicional | 15% del sueldo básico + 5% del sueldo adicional                                   |
+
+- Implemente los tests necesarios para comprobar la solución implementada.
+
+- Fuente: Ejercicio inspirado en un ejercicio de la materia Objetos 2 de la UNLP.
