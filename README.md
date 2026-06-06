@@ -68,7 +68,7 @@ Se pide:
 
 - Fuente: Ejercicio tomado de la materia Objetos 2 de la UNLP.
 
-# 4. Calculo de suelos de Empleados
+## 4. Calculo de suelos de Empleados
 
 Dada la implementación del cálculo de sueldo que se encuentra en el paquete `ejercicio4`, donde existen tres tipos de
 empleados: Temporarios, Pasantes y Planta y el sueldo se compone de 3 elementos: sueldo básico, adicionales y
