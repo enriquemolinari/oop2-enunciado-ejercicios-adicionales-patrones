@@ -97,3 +97,21 @@ Se pide:
 - Implemente los tests necesarios para comprobar la solución implementada.
 
 - Fuente: Ejercicio inspirado en un ejercicio de la materia Objetos 2 de la UNLP.
+
+## 5. Items de Trabajo
+
+Se desea definir un sistema de seguimiento de tareas. En este sistema hay tareas en las cuales se puede definir el
+nombre y una serie de comentarios. Las tareas atraviesan diferentes etapas a lo largo de su ciclo de vida y ellas
+son: `pending` (ni bien son creadas), `in-progress`, `paused` y `finished`. Cada tarea debe estar modelada mediante la
+clase `ToDoItem` (cuya firma se encuentra en el paquete `ejercicio5`.
+
+El mensaje de error específico que se espera en este ejercicio debe ser descriptivo del caso. Por ejemplo, para el
+método `togglePause()` , el mensaje de error debe indicar que el `ToDoItem` no se encuentra en in-progress o paused:
+`throw new RuntimeException("El objeto ToDoItem no se encuentra en pause o in-progress");`
+
+Se pide:
+
+- Indique qué patrón de diseño sería adecuado para la solución y justifique la respuesta.
+- Implemente la solución.
+- Escriba una Main que muestre cómo se utilizará su implementación.
+- Diagrama de clases de la solución implementada.
